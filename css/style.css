@@ -342,7 +342,7 @@ h1 {
 .page-softwere-flex>div {
     flex-basis: 55%;
 }
-.page-softwere-icon {
+.settings-icon {
     display: block;
     background-image: url(../img/softwere-icon.png);
     background-repeat: no-repeat;
@@ -361,7 +361,7 @@ h1 {
     font-size: 14px;
     line-height: 1.8;
 }
-.page-softwere-flex .title-h2 {
+.page-softwere-flex .title-h2{
     max-width: 766px;
     margin-top: 0;
     margin-bottom: 26px;
@@ -415,7 +415,72 @@ h1 {
 .btn-subscribe:hover {
     background: transparent;
 }
+.page-app-text {
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #c4d2dd;
+    margin-top: 27px;
+    margin-bottom: 20px;
+    letter-spacing: 3.5px;
+}
+.page-app-list {
+    padding: 0;
+    list-style-type: none;
+    margin-left: -9px;
+}
+.page-app-list>li {
+    display: inline-block;
+}
+.page-app-list>li>a {
+    background-image: url(../img/page-app-icons.png);
+    background-repeat: no-repeat;
+    display: block;
+    width: 185px;
+    height: 78px;
+}
+.page-app-list>li>a.page-app-android {
+    background-position: 0 0;
+}
+.page-app-list>li>a.page-app-ios {
+    background-position: -188px 0;
+}
+.page-app-content {
+    width: 55%;
+}
+.page-app-content .title-h2 {
+    margin-bottom: 36px;
+}
+a.video-app {
+    position: absolute;
+    top: -61px;
+    right: -172px;
+}
+.flex-analytics, .flex-analytics-left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flex-analytics img {
+    margin-left: 28px;
+}
+.page-analytics-text {
+    margin-bottom: 24px;
+}
+.flex-analytics>div {
+    flex-basis: 50%;
+}
+.page-analytics-title {
+    margin-top: 0;
+    margin-bottom: 27px;
+}
 
+.page-analytics-title-left {
+    margin-bottom: 51px;
+}
+.page-analytics-left-btn {
+    padding: 20px 62px;
+}
 .list-stat {
     display: flex;
     list-style-type: none;
@@ -578,4 +643,24 @@ h1 {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+}
+.page-app {
+    padding: 69px 0 92px 0;
+}
+.page-app .wrap {
+    position: relative;
+}
+
+.page-analytics {
+    background-image: url(../img/bg6.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 126px 0 136px 0;
+}
+.page-analytics-left {
+    background-image: url(../img/bg7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 134px;
+    padding-top: 130px;
 }
