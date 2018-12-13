@@ -268,7 +268,7 @@ h1 {
 .grid-item {
     text-align: center;
     padding: 80px 40px;
-    box-shadow: 0 9px 20px #f4f4f4;
+    box-shadow: 0 5px 6px #f4f4f4;
 }
 .grid-item h3 {
     font-size: 20px;
@@ -508,6 +508,75 @@ a.video-app {
     margin-top: 51px;
     margin-bottom: -6px;
 }
+.title-clients, {
+    font-size: 40px;
+    color:#fff;
+    letter-spacing: -1px;
+}
+.page-team .title-h2{
+    font-size: 40px;
+    color:#fff;
+    letter-spacing: -1px;
+}
+.title-clients span {
+    color:#85c8ff;
+    font-weight: 900;
+    font-size: 18px;
+    letter-spacing: 3.7px;
+    margin-bottom: 30px;
+}
+.page-team .title-h2 span{
+    color:#85c8ff;
+    font-weight: 900;
+    font-size: 18px;
+    letter-spacing: 3.7px;
+    margin-bottom: 30px;
+}
+.box-clients {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 63px;
+}
+.box-clients-item {
+    background-color: #fff;
+    padding: 20px 30px;
+    border-radius: 10px;
+    flex-basis: 31.5%;
+    box-sizing: border-box;
+    font-size: 14px;
+    padding: 21px 42px;
+    box-shadow: 0 9px 20px #f4f4f4;
+}
+.box-clients-item .name {
+    color: #000958;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 0;
+    letter-spacing: -0.6px;
+    line-height: 1.1;
+}
+.box-clients-item>p {
+    margin-bottom: 4px;
+    letter-spacing: -0.3px;
+    line-height: 1.7;
+}
+.box-clients-item .position {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #1085e4;
+    letter-spacing: 3px;
+    margin-top: 1px;
+}
+.box-info {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 7px;
+}
+.box-info>div {
+    padding-left: 17px;
+}
 .box-price{
     display: flex;
     justify-content: space-between;
@@ -595,10 +664,135 @@ a.video-app {
 .box-subsrcribe-user input:-moz-placeholder           {color:#b1c3ee;}
 .box-subsrcribe-user input:-ms-input-placeholder      {color:#b1c3ee;}
 
+.box-team {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 138px;
+}
+.box-team-item {
+    background-color: #fff;
+    flex-basis: 31.5%;
+    box-shadow: 0 5px 6px #f4f4f4;
+    position: relative;
+    padding: 190px 0 42px 0;
+}
+.box-team-item .btn-team {
+    background-color: #f3f3f3;
+    border-radius: 100%;
+    padding: 0;
+    width: 50px;
+    height: 50px;
+    border:none;
+    display: block;
+    transition: 0.3s;
+}
+
+.page-team .position {
+    color: #1a88e1;
+    font-weight: 800;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    letter-spacing: 2.1px;
+    margin-top: 17px;
+}
+.page-team .name {
+    color: #192b59;
+    font-weight: 600;
+    font-size: 26px;
+    margin-top: 7px;
+    letter-spacing: -0.9px;
+}
+.box-team-item .avatar {
+    position: absolute;
+    top: -86px;
+    left: 0px;
+    right: 0px;
+    margin: 0 auto;
+    border:none;
+}
+
+.box-team-item .btn-team span {
+    background-image: url(../img/btn-team.png);
+    background-repeat: no-repeat;
+    display: block;
+    margin: 0 auto;
+}
+.box-team-item .btn-more span{
+    background-position: 2px 2px;
+    width: 20px;
+    height: 20px;
+}
+
+.box-team-item .btn-more:focus {
+    outline: none;
+}
+
+.box-team-item .btn-more:hover span {
+    background-position: 2px -28px;
+}
+.box-team-item .btn-team:hover {
+    background-color: #1a88e1;
+}
+.box-team-item .btn-fb span {
+    background-position: -17px 16px;
+    width: 20px;
+    height: 20px;
+    padding-top: 28px;
+}
+.box-team-item .btn-tw span {
+    background-position: -40px 16px;
+    width: 20px;
+    height: 20px;
+    padding-top: 28px;
+}
+.box-team-item .btn-tw span {
+    background-position: -40px 18px;
+    width: 20px;
+    height: 20px;
+    padding-top: 28px;
+}
+.box-team-item .btn-be span {
+    background-position: -64px 16px;
+    width: 20px;
+    height: 20px;
+    padding-top: 28px;
+}
+.box-team-item .btn-web span {
+    background-position: -87px 17px;
+    width: 20px;
+    height: 20px;
+    padding-top: 28px;
+}
+.box-team-item .btn-tw:hover span {
+    background-position: -40px -16px;
+
+}
+.box-team-item .btn-tw:hover span {
+    background-position: -40px 18px;
+
+}
+.box-team-item .btn-be:hover span {
+    background-position: -64px 16px;
+
+}
+.box-team-item .btn-web:hover span {
+    background-position: -87px 17px;
+
+}
+
+
+.social-team {
+    list-style-type: none;
+    display: flex; 
+    justify-content: space-between;
+}
+
 /* pages */
 .page-header {
     background-image: url(../img/bg.png);
     background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
     padding: 53px 0 330px 0;
     position: relative;
@@ -606,6 +800,7 @@ a.video-app {
 .page-company {
     background-image: url(../img/bg2.png);
     background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
     padding: 106px 0 99px;
 }
@@ -633,7 +828,9 @@ a.video-app {
 .page-screen {
     padding:126px 0 0 0;
 }
-
+.page-plan {
+    padding-top: 92px;
+}
 .page-plan, .page-screen {
     text-align: center;
 }
@@ -641,6 +838,7 @@ a.video-app {
     padding: 121px 0 166px 0;
     background-image: url(../img/bg4.png);
     background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
     position: relative;
 }
@@ -654,13 +852,39 @@ a.video-app {
 .page-analytics {
     background-image: url(../img/bg6.png);
     background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
     padding: 126px 0 136px 0;
 }
 .page-analytics-left {
     background-image: url(../img/bg7.png);
     background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
     padding-bottom: 134px;
     padding-top: 130px;
+}
+.page-clients {
+    position: relative;
+    padding: 53px 0 0 0;
+    margin-top: 119px;
+}
+.page-clients::before {
+    content: '';
+    display: block;
+    background-image: url(../img/vector.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+.page-team {
+    text-align: center;
+    background-image: url(../img/bg9.png);
+    background-position: center;
+    padding: 95px 0 78px 0;
+    
 }
