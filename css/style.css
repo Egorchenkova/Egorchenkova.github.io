@@ -626,6 +626,7 @@ a.video-app {
         justify-content: space-around;
     margin-top: 76px;
     flex-wrap: wrap;
+    padding: 0;
 }
 .list-stat>li {
     font-size: 12px;
@@ -835,6 +836,7 @@ a.video-app {
         -ms-flex-pack: justify;
             justify-content: space-between;
     margin-top: 138px;
+    flex-wrap: wrap;
 }
 .box-team-item {
     background-color: #fff;
@@ -1272,6 +1274,10 @@ a.video-app {
         margin: 0 auto;
         flex-basis: 51%;
     }
+    .box-price {
+        margin-bottom: 71px;
+    }
+    
 }
 @media (max-width:700px) {
     .list-stat>li {
@@ -1281,6 +1287,16 @@ a.video-app {
     .box-clients-item {
         margin: 0 auto;
         margin-bottom: 20px;
+    }
+    .btn-subscribe {
+        top: 80px;
+       right: 0;
+       left: 0;
+       margin: 0 auto;
+       width: 80%;
+    }
+    .box-subsrcribe-user input {
+        padding: 25px 0 25px 38px;
     }
 }
 @media (max-width:1740px) {
@@ -1320,6 +1336,7 @@ a.video-app {
         margin: 0 auto;
         width: 100%;
     }
+    
 }
 
 @media (max-width:1100px) {
@@ -1396,7 +1413,7 @@ a.video-app {
         margin: 0 auto 30px;
     }
     .page-subscribe {
-        padding: 50px 0 65px 0;
+        padding: 50px 0 97px 0;
     }
     .page-analytics .wrap {
         padding-top: 350px;
@@ -1435,9 +1452,54 @@ a.video-app {
         text-align: center;
         flex-basis: 90%;
     }
+    .box-team-item {
+        flex-basis: 100%;
+        padding-bottom: 30px;
+        margin-bottom: 114px;
+        max-width: 535px;
+    }
+    .box-team {
+        justify-content: center;
+        margin-top: 138px;
+    }
+    .page-team {
+        background-color: #1a88e1;
+        padding: 95px 0 27px 0;
+    }
+    .page-clients {
+        background-color: #1085e4;
+        padding: 53px 0 53px 0;
+    }
+    .page-form {
+        padding-top: 402px;
+    }
+    .flex-form {
+        position: relative;
+    }
+    .flex-form .form-img {
+        position: absolute;
+        top: -357px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+    .flex-form>div {
+        flex-basis: 80%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .contact-form button {
+        margin: 0 auto;
+    }
+    .title-form {
+        font-size: 40px;
+    }
 }
 
 @media (max-width:600px) {
+    .page-softwere-flex .title-h2 {
+        font-size: 40px;
+    }
     h1 {
         font-size: 40px;
         margin: 0 auto 30px;
@@ -1467,7 +1529,30 @@ a.video-app {
     .page-analytics h2, .page-analytics-left h2 {
         font-size: 40px;
     }
+    .flex-form .form-img {
+        display: none;
+    }
+    .page-form {
+        padding-top: 50px;
+    }
+    .flex-form>div {
+        flex-basis: 100%;
+    }
+    .flex-footer {
+        flex-direction: column;
+    }
+    .flex-footer p {
+        text-align: center;
+    }
+    .flex-sohial {
+        padding: 0;
+        margin: 0 auto;
+    }
+    .box-price-item ul {
+        min-width: 150px;
+    }
 }
+
 @media (max-width:1300px){
     .page-softwere-img {
         display: none;
@@ -1480,6 +1565,10 @@ a.video-app {
     }
     .page-softwere-flex {
         justify-content: center;
+        text-align: justify;
+    }
+    .page-softwere-flex>div>h2 {
+        text-align: center;
     }
     .page-softwere-flex>div {
         flex-basis: 100%;
@@ -1494,8 +1583,29 @@ a.video-app {
     .page-app-descr {
         display: none;
     }  
-
     .page-app-content .title-h2 {
-        font-size: 35px;
+        font-size: 34px;
+    }
+    .box-subsrcribe-user input {
+        padding: 25px 0 25px 15px;
+    }
+    .page-plan .wrap {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .video-app img{
+        width: 306px;
+    }
+}
+@media (max-width:500px) {
+    .list-company {
+        justify-content: center;
+    }
+    .grid {
+        grid-template-columns: 1fr;
+        grid-template-areas: "a a" "b b" "c c" "d d" "e e" "f f" "g g" "h h";
+    }
+    .object-circle {
+        display: none;
     }
 }
