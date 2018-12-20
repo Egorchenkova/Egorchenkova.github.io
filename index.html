@@ -35,6 +35,7 @@
                 <li><a href="#" class="nav-item">Team</a></li>
                 <li><a href="" class="btn-primary btn-free" >free trail</a></li>
             </ul>
+            <button class="btn-menu" type="button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M491.318 235.318H20.682C9.26 235.318 0 244.577 0 256s9.26 20.682 20.682 20.682h470.636c11.423 0 20.682-9.259 20.682-20.682 0-11.422-9.259-20.682-20.682-20.682zM491.318 78.439H20.682C9.26 78.439 0 87.699 0 99.121c0 11.422 9.26 20.682 20.682 20.682h470.636c11.423 0 20.682-9.26 20.682-20.682 0-11.422-9.259-20.682-20.682-20.682zM491.318 392.197H20.682C9.26 392.197 0 401.456 0 412.879s9.26 20.682 20.682 20.682h470.636c11.423 0 20.682-9.259 20.682-20.682s-9.259-20.682-20.682-20.682z"/></svg></button>
     </div>
     
     <div class="wrap">
@@ -50,10 +51,10 @@
 </div>
     <div class="page-company">       
         <ul class="list-company">
-            <li class="list-company-item company-one"></li>
-            <li class="list-company-item company-two"></li>
-            <li class="list-company-item company-three"></li>
-            <li class="list-company-item company-four"></li>
+            <li class="list-company-item company-one"><span></span></li>
+            <li class="list-company-item company-two"><span></span></li>
+            <li class="list-company-item company-three"><span></span></li>
+            <li class="list-company-item company-four"><span></span></li>
         </ul>
     
     </div>
@@ -204,7 +205,7 @@
     </div>
 </div>
   <div class="page-stat">
-      <div class="wrap">            
+      <div class="wrap">      
             <h2 class="title-h2"><span>Fun Facts</span>Some Fun Facts About Dashboard
             </h2>                          
             <ul class="list-stat">
@@ -214,14 +215,17 @@
                 <li><span>120</span>Awards</li>
             </ul>
                 
-      </div>    
+      </div> 
+      <div class="object-circle"></div>   
+      <div class="object-rhombus"></div>   
   </div>
 
   <div class="page-app">
       <div class="wrap">
-          <div class="page-app-content">
+            <p class="intro">Intro</p>       
+            <div class="page-app-content">
               <h2 class="title-h2">Meet With Future&nbsp;Landingpage</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
+              <p class="page-app-descr">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
               <p class="page-app-text">Available Now</p>
               <ul class="page-app-list">
                   <li><a class="page-app-android" href="" target="_blank"></a></li>
@@ -380,8 +384,8 @@
                         <img class="avatar" src="img/team-1.png" alt="team">
                         <p class="position">founder</p>
                         <p class="name">Ricardo T. Obrien</p>
-                        <button class="btn-team btn-more" type="button"><span></span></button>
-                        <ul class="social-team">
+                        <button class="btn-team btn-more btn-ricardo" type="button"><span></span></button>
+                        <ul class="social-team social-ricardo" style="display:none;">
                             <li><a href="#" class="btn-team btn-fb" target="_blank"><span></span></a></li>
                             <li><a href="#" class="btn-team btn-tw" target="_blank"><span></span></a></li>
                             <li><a href="#" class="btn-team btn-be" target="_blank"><span></span></a></li>
@@ -392,43 +396,92 @@
                         <img class="avatar" src="img/team-2.png" alt="team">
                         <p class="position">ceo</p>
                         <p class="name">Alberto Del Rio</p>
-                        <button class="btn-team btn-more" type="button"><span></span></button>
+                        <button class="btn-team btn-more btn-alberto" type="button"><span></span></button>
+                        <ul class="social-team social-alberto" style="display:none;">
+                            <li><a href="#" class="btn-team btn-fb" target="_blank"><span></span></a></li>
+                            <li><a href="#" class="btn-team btn-tw" target="_blank"><span></span></a></li>
+                            <li><a href="#" class="btn-team btn-be" target="_blank"><span></span></a></li>
+                            <li><a href="#" class="btn-team btn-web" target="_blank"><span></span></a></li>
+                        </ul>
                 </div>
                 <div class="box-team-item">
                         <img class="avatar" src="img/team-3.png" alt="team">
                         <p class="position">desinger</p>
                         <p class="name">Thomas Alva Adison</p>
-                        <button class="btn-team btn-more" type="button"><span></span></button>
+                        <button class="btn-team btn-more btn-thomas" type="button"><span></span></button>
+                        <ul class="social-team social-thomas" style="display:none;">
+                            <li><a href="#" class="btn-team btn-fb" target="_blank"><span></span></a></li>
+                            <li><a href="#" class="btn-team btn-tw" target="_blank"><span></span></a></li>
+                            <li><a href="#" class="btn-team btn-be" target="_blank"><span></span></a></li>
+                            <li><a href="#" class="btn-team btn-web" target="_blank"><span></span></a></li>
+                        </ul>
                 </div>
             </div>
         </div>       
     </div>
     <div class="page-form">
-            <h2>
-                Start Your Free Trail <br>
-                No Need Credit Card.
-            </h2>
-            <img src="img/screen4.png" alt="chart">
-            <form action="#">
-                <input type="text" placeholder="Enter your name here">
-                <input type="email" placeholder="Enter your email here">
-                <textarea name="textMessage" placeholder="Enter your message here"></textarea>
-                <button type="submit" class="btn-primary"><span></span>Submit now</button>
-            </form>
+            <div class="flex-form">
+                <div class="form-img">
+                    <img src="img/screen4.png" alt="chart">
+                </div> 
+                <div>
+                    <h2 class="title-h2 title-form"> Start Your Free Trail <br> No Need Credit Card.</h2>
+                    <form class="contact-form" action="sendLetter">
+                        <div class="contact-form-item contact-form-name"><input type="text" placeholder="Enter your name here"></div>
+                        <div class="contact-form-item contact-form-mail"><input type="email" placeholder="Enter your email here"></div>
+                        <div class="contact-form-item contact-form-text"><textarea name="textMessage" placeholder="Enter your message here"></textarea></div>
+                        <button type="submit" class="btn-primary"><span></span>Submit now</button>
+                    </form>
+                </div>           
     </div>
+</div>
     <div class="footer">
-        <div>
-            <p> Made With Love & Copyright By - <a href=""> limpon</a></p>
-                <ul class="sohial">
-                    <li><a href="" target="_blank"></a></li>
-                    <li><a href="" target="_blank"></a></li>
-                    <li><a href="" target="_blank"></a></li>
-                    <li><a href="" target="_blank"></a></li>
-                    <li><a href="" target="_blank"></a></li>
+        <div class="wrap flex-footer">
+            <p> Made With Love & Copyright By - <span> limpon</span></p>
+                <ul class="flex-sohial">
+                    <li class="sohial-item"><a href="#" target="_blank"><img src="img/footer-icon-1.png" alt="icon"></a></li>
+                    <li class="sohial-item"><a href="#" target="_blank"><img src="img/footer-icon-2.png" alt="icon"></a></li>
+                    <li class="sohial-item"><a href="#" target="_blank"><img src="img/footer-icon-3.png" alt="icon"></a></li>
+                    <li class="sohial-item"><a href="#" target="_blank"><img src="img/footer-icon-4.png" alt="icon"></a></li>
+                    <li class="sohial-item"><a href="#" target="_blank"><img src="img/footer-icon-5.png" alt="icon"></a></li>
                 </ul>
             
         </div>
     </div>
+    <div class="modal">
+        <button class="btn-close" type="button"><span>&times;</span></button>
+        <ul class="nav-modal">
+            <li><a href="#" class="nav-item">Home</a></li>
+            <li><a href="#" class="nav-item">Features</a></li>
+            <li><a href="#" class="nav-item">Video</a></li>
+            <li><a href="#" class="nav-item">Screens</a></li>
+            <li><a href="#" class="nav-item">Pricing</a></li>
+            <li><a href="#" class="nav-item">Team</a></li>
+            <li><a href="" class="btn-primary btn-free" >free trail</a></li>
+        </ul>
+    </div>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function(){
+        $(".btn-ricardo").click(function(){
+                $(".btn-ricardo").hide();
+                $(".social-ricardo").fadeIn();
+            });
+        $(".btn-alberto").click(function(){
+                $(".btn-alberto").hide();
+                $(".social-alberto").fadeIn();
+            });
+        $(".btn-thomas").click(function(){
+                $(".btn-thomas").hide();
+                $(".social-thomas").fadeIn();
+            });
+            $(".btn-menu").click(function(){
+                $(".modal").show()
+            })
+            $(".btn-close").click(function(){
+                $(".modal").hide()
+            })
+        });
+    </script>
 </body>
 </html>
