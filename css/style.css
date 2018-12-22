@@ -600,7 +600,7 @@ a.video-app {
     margin-left: 28px;
 }
 .page-analytics-text {
-    margin-bottom: 40px;
+    margin-bottom: 24px;
 }
 .flex-analytics>div {
     -ms-flex-preferred-size: 50%;
@@ -651,9 +651,10 @@ a.video-app {
     max-width: 1288px;
     width: 100%;
 }
-.title-clients, {
+.title-clients {
+    color: #fff;
     font-size: 40px;
-    color:#fff;
+    font-weight: 600;
     letter-spacing: -1px;
 }
 .page-team .title-h2{
@@ -682,7 +683,7 @@ a.video-app {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    margin-top: 63px;
+    margin-top: 66px;
     flex-wrap: wrap;
 }
 .box-clients-item {
@@ -702,7 +703,8 @@ a.video-app {
     color: #000958;
     font-size: 22px;
     font-weight: 600;
-    margin-bottom: 0;
+    margin-top: 16px;
+    margin-bottom: -14px;
     letter-spacing: -0.6px;
     line-height: 1.1;
 }
@@ -717,7 +719,6 @@ a.video-app {
     font-weight: 700;
     color: #1085e4;
     letter-spacing: 3px;
-    margin-top: 1px;
 }
 .box-info {
     display: -webkit-box;
@@ -1159,7 +1160,7 @@ a.video-app {
     padding: 27px;
 }
 .page-grid {
-    margin-top: 87px;
+    margin-top: 121px;
     padding-bottom: 118px;
 }
 .page-stat, .page-screen {
