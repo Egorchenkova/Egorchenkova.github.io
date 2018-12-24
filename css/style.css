@@ -242,11 +242,15 @@ h1 {
     margin: 0;
     padding: 0;
 }
+
 ul.nav-modal>li:last-child {
     margin-top: 35px;
 }
 ul.nav-modal>li {
     margin-bottom: 12px;
+}
+.nav-modal>li a:hover {
+    color: #000958;
 }
 
 .list-company {
@@ -1246,6 +1250,7 @@ a.video-app {
     background-color: #192b59;
 }
 
+
 /* media */
 
 @media (max-width:930px) {
@@ -1652,7 +1657,7 @@ a.video-app {
         font-size: 10px;
         margin: 0 auto;
     }
-    .btn-2 {
+    .btn-secondary {
         margin-left: 23px;
     }
     .btn-2 {
@@ -1678,5 +1683,8 @@ a.video-app {
     }
     .page-analytics-left-btn {
         padding: 15px 34px;
+    }
+    .btn-free {
+        padding: 14px 27px;
     }
 }
