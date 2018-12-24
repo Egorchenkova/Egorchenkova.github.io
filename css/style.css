@@ -750,7 +750,7 @@ a.video-app {
     background-color: #f5faff;
     padding: 90px 0px 96px 0;
     -ms-flex-preferred-size: 33%;
-        flex-basis: 33%;
+        flex-basis: 32%;
     position: relative;
     
 }
@@ -809,7 +809,7 @@ a.video-app {
     position: relative;
 }
 .box-subsrcribe-user input {
-    border: 2px solid #3c51a9;
+    border: 1px solid #fff;
     color: #fff;
     border-radius: 45px;
     background-color: transparent;
@@ -1215,17 +1215,19 @@ a.video-app {
     margin-top: 119px;
 }
 .page-clients::before {
-    content: '';
-    display: block;
-    background-image: url(../img/vector.svg);
-    background-repeat: no-repeat;
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-}
+        content: '';
+        display: block;
+        background-image: url(../img/vector.svg);
+        background-repeat: no-repeat;
+        position: absolute;
+        left: -41px;
+        top: 0;
+        width: 100%;
+        background-size: contain;
+        height: 100%;
+        z-index: -1;
+        max-width: 1665px;
+    }
 .page-team {
     text-align: center;
     background-image: url(../img/bg9.png);
@@ -1280,25 +1282,7 @@ a.video-app {
     }
     
 }
-@media (max-width:700px) {
-    .list-stat>li {
-        flex-basis: 34%;
-        margin-bottom: 30px;
-    }
-    .box-clients-item {
-        margin: 0 auto;
-        margin-bottom: 20px;
-    }
-    .btn-subscribe {
-        top: 80px;
-       right: 0;
-       left: 0;
-       margin: 0 auto;
-       width: 80%;
-    }
-    .box-subsrcribe-user input {
-        padding: 25px 0 25px 38px;
-    }
+
 }
 @media (max-width:1740px) {
     .screen-img {
@@ -1459,6 +1443,10 @@ a.video-app {
         margin-bottom: 114px;
         max-width: 535px;
     }
+    .box-team-item ul {
+        max-width: 69%;
+        margin: 0 auto;
+    }
     .box-team {
         justify-content: center;
         margin-top: 138px;
@@ -1470,6 +1458,7 @@ a.video-app {
     .page-clients {
         background-color: #1085e4;
         padding: 53px 0 53px 0;
+        margin-top: 0;
     }
     .page-form {
         padding-top: 402px;
@@ -1495,12 +1484,39 @@ a.video-app {
     .title-form {
         font-size: 40px;
     }
+    .contact-form .btn-primary::before {
+        left: 43px;
+        top: 22px;
+    }
 }
+@media (max-width:700px) {
+    .list-stat>li {
+        flex-basis: 34%;
+        margin-bottom: 30px;
+    }
+    .box-clients-item {
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .btn-subscribe {
+        top: 80px;
+       right: 0;
+       left: 0;
+       margin: 0 auto;
+       width: 80%;
+    }
+    .box-subsrcribe-user input {
+        padding: 20px 0 19px 38px;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .grid {
+        grid-template-columns: 1fr;
+        grid-template-areas: "a a" "b b" "c c" "d d" "e e" "f f" "g g" "h h";
+    }
 
 @media (max-width:600px) {
-    .page-softwere-flex .title-h2 {
-        font-size: 40px;
-    }
+    
     h1 {
         font-size: 40px;
         margin: 0 auto 30px;
@@ -1527,9 +1543,7 @@ a.video-app {
     .page-analytics .wrap, .page-analytics-left .wrap {
         padding-top: 0;
     } 
-    .page-analytics h2, .page-analytics-left h2 {
-        font-size: 40px;
-    }
+   
     .flex-form .form-img {
         display: none;
     }
@@ -1537,7 +1551,7 @@ a.video-app {
         padding-top: 50px;
     }
     .flex-form>div {
-        flex-basis: 100%;
+        flex-basis: 90%;
     }
     .flex-footer {
         flex-direction: column;
@@ -1578,6 +1592,7 @@ a.video-app {
         height: 266px;
         max-width: 800px;
         margin-right: 50px;
+        padding-right: 25px;
     }
 }
 @media (max-width:400px) {
@@ -1597,16 +1612,71 @@ a.video-app {
     .video-app img{
         width: 306px;
     }
+    .title-h2 {
+        font-size: 32px;
+    }
+    .page-team .title-h2, .page-screen .title-h2 {
+        font-size: 32px;
+    }
+    .page-team .title-h2 span, .title-clients span, .page-screen .title-h2 span   {
+        font-size: 15px;
+    }
+    .box-subsrcribe-user input {
+        font-size: 11px;
+    }
+    .box-team-item ul {
+        max-width: 81%;
+    }
 }
 @media (max-width:500px) {
     .list-company {
         justify-content: center;
     }
-    .grid {
-        grid-template-columns: 1fr;
-        grid-template-areas: "a a" "b b" "c c" "d d" "e e" "f f" "g g" "h h";
-    }
+    
     .object-circle {
         display: none;
+    }
+    .page-analytics-left, .page-analytics {
+        padding-bottom: 98px;
+        padding-top: 71px;
+
+    }
+    .btn-subscribe {
+        font-size: 10px;
+    }
+}
+@media (max-width:320px) {
+    .btn-primary, .btn-secondary, .btn-info {
+        padding: 15px 15px;
+        width: 72%;
+        font-size: 10px;
+        margin: 0 auto;
+    }
+    .btn-2 {
+        margin-left: 23px;
+    }
+    .btn-2 {
+        margin: 0 auto;
+    }
+    .box-subsrcribe-user input {
+        padding: 14px 0 19px 14px;
+
+    }
+    .btn-subscribe {
+    top: 65px;
+    }
+    .contact-form .btn-primary {
+        padding: 17px 13px;
+        width: 64%;
+    }
+    .box-team-item ul {
+        max-width: 100%;
+    }
+    .contact-form .btn-primary::before {
+        left: 26px;
+        top: 16px;
+    }
+    .page-analytics-left-btn {
+        padding: 15px 34px;
     }
 }
