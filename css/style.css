@@ -1577,6 +1577,7 @@ a.video-app {
     .btn-group a+a {
         margin-left: 0;
     }
+    
 }
 
 @media (max-width:1300px){
