@@ -1017,6 +1017,7 @@ a.video-app {
 }
 .contact-form  input, .contact-form textarea {
     font-size: 14px;
+    font-weight: 500;
     border: 2px solid #dce4ec;
     padding: 25px 80px 25px 37px;
     border-radius: 35px;
@@ -1288,7 +1289,7 @@ a.video-app {
     
 }
 
-}
+
 @media (max-width:1740px) {
     .screen-img {
         background-size: cover;
@@ -1296,6 +1297,7 @@ a.video-app {
         height: 579px;
         top: 205px;
     }
+    
 }
 @media (max-width:1400px) {
     .screen-img {
@@ -1519,6 +1521,7 @@ a.video-app {
         grid-template-columns: 1fr;
         grid-template-areas: "a a" "b b" "c c" "d d" "e e" "f f" "g g" "h h";
     }
+}
 
 @media (max-width:600px) {
     
@@ -1531,7 +1534,7 @@ a.video-app {
     }
     .btn-group a+a {
         font-size: 11px;
-        margin-left: 0;
+
     }
     .btn-group a {
         margin-bottom: 10px;
@@ -1570,6 +1573,9 @@ a.video-app {
     }
     .box-price-item ul {
         min-width: 150px;
+    }
+    .btn-group a+a {
+        margin-left: 0;
     }
 }
 
@@ -1632,6 +1638,7 @@ a.video-app {
     .box-team-item ul {
         max-width: 81%;
     }
+    
 }
 @media (max-width:500px) {
     .list-company {
@@ -1686,5 +1693,8 @@ a.video-app {
     }
     .btn-free {
         padding: 14px 27px;
+    }
+    .btn-group a+a {
+        margin: 0 auto;
     }
 }
